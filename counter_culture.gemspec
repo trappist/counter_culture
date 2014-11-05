@@ -6,7 +6,7 @@
 
 Gem::Specification.new do |s|
   s.name = "counter_culture"
-  s.version = "0.1.25"
+  s.version = "0.1.26"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Magnus von Koeller"]
@@ -126,7 +126,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rake>, [">= 0"])
       s.add_dependency(%q<rails>, [">= 3.1.0"])
       s.add_dependency(%q<rspec>, ["~> 2.10.0"])
-      s.add_dependency(%q<after_commit_action>, [">= 0"])
       s.add_dependency(%q<awesome_print>, [">= 0"])
       s.add_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_dependency(%q<bundler>, [">= 1.2.0"])
@@ -137,7 +136,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rake>, [">= 0"])
     s.add_dependency(%q<rails>, [">= 3.1.0"])
     s.add_dependency(%q<rspec>, ["~> 2.10.0"])
-    s.add_dependency(%q<after_commit_action>, [">= 0"])
     s.add_dependency(%q<awesome_print>, [">= 0"])
     s.add_dependency(%q<rdoc>, ["~> 3.12"])
     s.add_dependency(%q<bundler>, [">= 1.2.0"])
